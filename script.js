@@ -69,7 +69,6 @@ const queryCEP = async () => {
 
 function copy(id) {
   let textBox = document.getElementById(id)
-  console.log(textBox)
   textBox.select();
   document.execCommand("copy");
   alert(`Copiado: ${textBox.value}`)
